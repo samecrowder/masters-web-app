@@ -9,3 +9,5 @@ Requirements:
 - [curl](http://curl.haxx.se/)
 - [pup](https://github.com/EricChiang/pup)
 - [jq](http://stedolan.github.io/jq/)
+
+Web API: http://samsandberg.com/themasters/
