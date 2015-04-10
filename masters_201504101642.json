@@ -9,13 +9,22 @@
     "player": "Jordan Spieth"
   },
   {
+    "tot": "135",
+    "r4": "-",
+    "r3": "-",
+    "r2": "68",
+    "r1": "67",
+    "pos": "2",
+    "player": "Charley Hoffman"
+  },
+  {
     "tot": "67",
     "r4": "-",
     "r3": "-",
     "r2": "-",
     "r1": "67",
-    "pos": "2",
-    "player": "Charley Hoffman"
+    "pos": "3",
+    "player": "Justin Rose"
   },
   {
     "tot": "139",
@@ -23,7 +32,7 @@
     "r3": "-",
     "r2": "72",
     "r1": "67",
-    "pos": "T3",
+    "pos": "T4",
     "player": "Ernie Els"
   },
   {
@@ -32,7 +41,7 @@
     "r3": "-",
     "r2": "-",
     "r1": "70",
-    "pos": "T3",
+    "pos": "T4",
     "player": "Dustin Johnson"
   },
   {
@@ -41,26 +50,35 @@
     "r3": "-",
     "r2": "-",
     "r1": "69",
-    "pos": "T3",
+    "pos": "T4",
     "player": "Paul Casey"
   },
   {
-    "tot": "74",
+    "tot": "140",
     "r4": "-",
     "r3": "-",
-    "r2": "-",
+    "r2": "66",
     "r1": "74",
-    "pos": "T6",
+    "pos": "T7",
     "player": "Kevin Na"
   },
   {
-    "tot": "67",
+    "tot": "70",
     "r4": "-",
     "r3": "-",
     "r2": "-",
-    "r1": "67",
-    "pos": "T6",
-    "player": "Justin Rose"
+    "r1": "70",
+    "pos": "T7",
+    "player": "Kevin Streelman"
+  },
+  {
+    "tot": "71",
+    "r4": "-",
+    "r3": "-",
+    "r2": "-",
+    "r1": "71",
+    "pos": "T7",
+    "player": "Charl Schwartzel"
   },
   {
     "tot": "141",
@@ -68,7 +86,7 @@
     "r3": "-",
     "r2": "69",
     "r1": "72",
-    "pos": "T8",
+    "pos": "T10",
     "player": "Louis Oosthuizen"
   },
   {
@@ -77,7 +95,7 @@
     "r3": "-",
     "r2": "69",
     "r1": "72",
-    "pos": "T8",
+    "pos": "T10",
     "player": "Angel Cabrera"
   },
   {
@@ -86,26 +104,17 @@
     "r3": "-",
     "r2": "68",
     "r1": "73",
-    "pos": "T8",
-    "player": "Mark O&#39;Meara"
+    "pos": "T10",
+    "player": "Mark O'Meara"
   },
   {
-    "tot": "67",
+    "tot": "141",
     "r4": "-",
     "r3": "-",
-    "r2": "-",
+    "r2": "74",
     "r1": "67",
-    "pos": "T8",
+    "pos": "T10",
     "player": "Jason Day"
-  },
-  {
-    "tot": "70",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "70",
-    "pos": "T8",
-    "player": "Patrick Reed"
   },
   {
     "tot": "142",
@@ -113,8 +122,35 @@
     "r3": "-",
     "r2": "69",
     "r1": "73",
-    "pos": "T13",
+    "pos": "T14",
     "player": "Tiger Woods"
+  },
+  {
+    "tot": "142",
+    "r4": "-",
+    "r3": "-",
+    "r2": "74",
+    "r1": "68",
+    "pos": "T14",
+    "player": "Sergio Garcia"
+  },
+  {
+    "tot": "142",
+    "r4": "-",
+    "r3": "-",
+    "r2": "71",
+    "r1": "71",
+    "pos": "T14",
+    "player": "Danny Willett"
+  },
+  {
+    "tot": "142",
+    "r4": "-",
+    "r3": "-",
+    "r2": "74",
+    "r1": "68",
+    "pos": "T14",
+    "player": "Russell Henley"
   },
   {
     "tot": "70",
@@ -122,8 +158,8 @@
     "r3": "-",
     "r2": "-",
     "r1": "70",
-    "pos": "T13",
-    "player": "Kevin Streelman"
+    "pos": "T14",
+    "player": "Patrick Reed"
   },
   {
     "tot": "69",
@@ -131,17 +167,17 @@
     "r3": "-",
     "r2": "-",
     "r1": "69",
-    "pos": "T13",
+    "pos": "T14",
     "player": "Bill Haas"
   },
   {
-    "tot": "71",
+    "tot": "70",
     "r4": "-",
     "r3": "-",
     "r2": "-",
-    "r1": "71",
-    "pos": "T13",
-    "player": "Charl Schwartzel"
+    "r1": "70",
+    "pos": "T14",
+    "player": "Phil Mickelson"
   },
   {
     "tot": "143",
@@ -149,34 +185,34 @@
     "r3": "-",
     "r2": "74",
     "r1": "69",
-    "pos": "T17",
+    "pos": "T21",
     "player": "Ryan Palmer"
   },
   {
-    "tot": "68",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "68",
-    "pos": "T17",
-    "player": "Sergio Garcia"
-  },
-  {
     "tot": "72",
     "r4": "-",
     "r3": "-",
     "r2": "-",
     "r1": "72",
-    "pos": "T17",
+    "pos": "T21",
     "player": "Jonas Blixt"
   },
   {
+    "tot": "71",
+    "r4": "-",
+    "r3": "-",
+    "r2": "-",
+    "r1": "71",
+    "pos": "T21",
+    "player": "Bubba Watson"
+  },
+  {
     "tot": "72",
     "r4": "-",
     "r3": "-",
     "r2": "-",
     "r1": "72",
-    "pos": "T17",
+    "pos": "T21",
     "player": "Adam Scott"
   },
   {
@@ -185,17 +221,17 @@
     "r3": "-",
     "r2": "-",
     "r1": "71",
-    "pos": "T17",
+    "pos": "T21",
     "player": "Hideki Matsuyama"
   },
   {
-    "tot": "70",
+    "tot": "74",
     "r4": "-",
     "r3": "-",
     "r2": "-",
-    "r1": "70",
-    "pos": "T17",
-    "player": "Phil Mickelson"
+    "r1": "74",
+    "pos": "T21",
+    "player": "Ryan Moore"
   },
   {
     "tot": "144",
@@ -203,7 +239,7 @@
     "r3": "-",
     "r2": "74",
     "r1": "70",
-    "pos": "T23",
+    "pos": "T27",
     "player": "Seung-yul Noh"
   },
   {
@@ -212,7 +248,7 @@
     "r3": "-",
     "r2": "70",
     "r1": "74",
-    "pos": "T23",
+    "pos": "T27",
     "player": "Geoff Ogilvy"
   },
   {
@@ -221,35 +257,8 @@
     "r3": "-",
     "r2": "72",
     "r1": "72",
-    "pos": "T23",
+    "pos": "T27",
     "player": "Zach Johnson"
-  },
-  {
-    "tot": "74",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "74",
-    "pos": "T23",
-    "player": "Jamie Donaldson"
-  },
-  {
-    "tot": "71",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "71",
-    "pos": "T23",
-    "player": "Danny Willett"
-  },
-  {
-    "tot": "68",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "68",
-    "pos": "T23",
-    "player": "Russell Henley"
   },
   {
     "tot": "73",
@@ -257,7 +266,7 @@
     "r3": "-",
     "r2": "-",
     "r1": "73",
-    "pos": "T23",
+    "pos": "T27",
     "player": "Ian Poulter"
   },
   {
@@ -266,8 +275,8 @@
     "r3": "-",
     "r2": "-",
     "r1": "71",
-    "pos": "T23",
-    "player": "Bubba Watson"
+    "pos": "T27",
+    "player": "Keegan Bradley"
   },
   {
     "tot": "69",
@@ -275,17 +284,8 @@
     "r3": "-",
     "r2": "-",
     "r1": "69",
-    "pos": "T23",
+    "pos": "T27",
     "player": "Webb Simpson"
-  },
-  {
-    "tot": "71",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "71",
-    "pos": "T23",
-    "player": "Rory McIlroy"
   },
   {
     "tot": "145",
@@ -363,28 +363,46 @@
     "tot": "145",
     "r4": "-",
     "r3": "-",
+    "r2": "71",
+    "r1": "74",
+    "pos": "T33",
+    "player": "Jamie Donaldson"
+  },
+  {
+    "tot": "145",
+    "r4": "-",
+    "r3": "-",
     "r2": "72",
     "r1": "73",
     "pos": "T33",
     "player": "Jimmy Walker"
   },
   {
-    "tot": "71",
+    "tot": "145",
     "r4": "-",
     "r3": "-",
-    "r2": "-",
-    "r1": "71",
-    "pos": "T33",
-    "player": "Anirban Lahiri"
-  },
-  {
-    "tot": "73",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
+    "r2": "72",
     "r1": "73",
     "pos": "T33",
-    "player": "Matt Every"
+    "player": "Rickie Fowler"
+  },
+  {
+    "tot": "145",
+    "r4": "-",
+    "r3": "-",
+    "r2": "70",
+    "r1": "75",
+    "pos": "T33",
+    "player": "Vijay Singh"
+  },
+  {
+    "tot": "145",
+    "r4": "-",
+    "r3": "-",
+    "r2": "71",
+    "r1": "74",
+    "pos": "T33",
+    "player": "Darren Clarke"
   },
   {
     "tot": "74",
@@ -393,7 +411,7 @@
     "r2": "-",
     "r1": "74",
     "pos": "T33",
-    "player": "Ryan Moore"
+    "player": "Sang-Moon Bae"
   },
   {
     "tot": "146",
@@ -401,7 +419,7 @@
     "r3": "-",
     "r2": "75",
     "r1": "71",
-    "pos": "T45",
+    "pos": "T47",
     "player": "Cameron Tringale"
   },
   {
@@ -410,7 +428,7 @@
     "r3": "-",
     "r2": "74",
     "r1": "72",
-    "pos": "T45",
+    "pos": "T47",
     "player": "Matt Kuchar"
   },
   {
@@ -419,7 +437,7 @@
     "r3": "-",
     "r2": "73",
     "r1": "73",
-    "pos": "T45",
+    "pos": "T47",
     "player": "Henrik Stenson"
   },
   {
@@ -428,8 +446,8 @@
     "r3": "-",
     "r2": "-",
     "r1": "73",
-    "pos": "T45",
-    "player": "Rickie Fowler"
+    "pos": "T47",
+    "player": "Lee Westwood"
   },
   {
     "tot": "71",
@@ -437,17 +455,8 @@
     "r3": "-",
     "r2": "-",
     "r1": "71",
-    "pos": "T45",
-    "player": "Gary Woodland"
-  },
-  {
-    "tot": "71",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "71",
-    "pos": "T45",
-    "player": "Keegan Bradley"
+    "pos": "T47",
+    "player": "Anirban Lahiri"
   },
   {
     "tot": "73",
@@ -455,35 +464,17 @@
     "r3": "-",
     "r2": "-",
     "r1": "73",
-    "pos": "T45",
-    "player": "Morgan Hoffmann"
+    "pos": "T47",
+    "player": "Matt Every"
   },
   {
-    "tot": "73",
+    "tot": "76",
     "r4": "-",
     "r3": "-",
     "r2": "-",
-    "r1": "73",
-    "pos": "T45",
-    "player": "Steve Stricker"
-  },
-  {
-    "tot": "74",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "74",
-    "pos": "T45",
-    "player": "Jason Dufner"
-  },
-  {
-    "tot": "74",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "74",
-    "pos": "T45",
-    "player": "Sang-Moon Bae"
+    "r1": "76",
+    "pos": "T47",
+    "player": "Joost Luiten"
   },
   {
     "tot": "147",
@@ -491,7 +482,7 @@
     "r3": "-",
     "r2": "74",
     "r1": "73",
-    "pos": "T55",
+    "pos": "T54",
     "player": "Bernhard Langer"
   },
   {
@@ -500,7 +491,7 @@
     "r3": "-",
     "r2": "73",
     "r1": "74",
-    "pos": "T55",
+    "pos": "T54",
     "player": "Jim Furyk"
   },
   {
@@ -509,7 +500,7 @@
     "r3": "-",
     "r2": "72",
     "r1": "75",
-    "pos": "T55",
+    "pos": "T54",
     "player": "Shane Lowry"
   },
   {
@@ -518,7 +509,7 @@
     "r3": "-",
     "r2": "74",
     "r1": "73",
-    "pos": "T55",
+    "pos": "T54",
     "player": "James Hahn"
   },
   {
@@ -527,7 +518,7 @@
     "r3": "-",
     "r2": "73",
     "r1": "74",
-    "pos": "T55",
+    "pos": "T54",
     "player": "Mikko Ilonen"
   },
   {
@@ -536,26 +527,17 @@
     "r3": "-",
     "r2": "72",
     "r1": "75",
-    "pos": "T55",
+    "pos": "T54",
     "player": "Luke Donald"
   },
   {
-    "tot": "74",
+    "tot": "147",
     "r4": "-",
     "r3": "-",
-    "r2": "-",
-    "r1": "74",
-    "pos": "T55",
-    "player": "Darren Clarke"
-  },
-  {
-    "tot": "75",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "75",
-    "pos": "T55",
-    "player": "Vijay Singh"
+    "r2": "76",
+    "r1": "71",
+    "pos": "T54",
+    "player": "Gary Woodland"
   },
   {
     "tot": "71",
@@ -563,7 +545,7 @@
     "r3": "-",
     "r2": "-",
     "r1": "71",
-    "pos": "T55",
+    "pos": "T54",
     "player": "Stephen Gallacher"
   },
   {
@@ -572,8 +554,26 @@
     "r3": "-",
     "r2": "-",
     "r1": "73",
-    "pos": "T55",
-    "player": "Lee Westwood"
+    "pos": "T54",
+    "player": "Steve Stricker"
+  },
+  {
+    "tot": "74",
+    "r4": "-",
+    "r3": "-",
+    "r2": "-",
+    "r1": "74",
+    "pos": "T54",
+    "player": "Jason Dufner"
+  },
+  {
+    "tot": "71",
+    "r4": "-",
+    "r3": "-",
+    "r2": "-",
+    "r1": "71",
+    "pos": "T54",
+    "player": "Rory McIlroy"
   },
   {
     "tot": "76",
@@ -581,7 +581,7 @@
     "r3": "-",
     "r2": "-",
     "r1": "76",
-    "pos": "T55",
+    "pos": "T54",
     "player": "Martin Kaymer"
   },
   {
@@ -590,7 +590,7 @@
     "r3": "-",
     "r2": "-",
     "r1": "74",
-    "pos": "T55",
+    "pos": "T54",
     "player": "Brandt Snedeker"
   },
   {
@@ -621,22 +621,31 @@
     "player": "Branden Grace"
   },
   {
-    "tot": "72",
+    "tot": "148",
     "r4": "-",
     "r3": "-",
-    "r2": "-",
+    "r2": "72",
+    "r1": "76",
+    "pos": "T67",
+    "player": "Brian Harman"
+  },
+  {
+    "tot": "148",
+    "r4": "-",
+    "r3": "-",
+    "r2": "76",
     "r1": "72",
     "pos": "T67",
     "player": "Camilo Villegas"
   },
   {
-    "tot": "76",
+    "tot": "73",
     "r4": "-",
     "r3": "-",
     "r2": "-",
-    "r1": "76",
+    "r1": "73",
     "pos": "T67",
-    "player": "Joost Luiten"
+    "player": "Morgan Hoffmann"
   },
   {
     "tot": "149",
@@ -644,7 +653,7 @@
     "r3": "-",
     "r2": "74",
     "r1": "75",
-    "pos": "T72",
+    "pos": "T73",
     "player": "Ian Woosnam"
   },
   {
@@ -653,7 +662,7 @@
     "r3": "-",
     "r2": "77",
     "r1": "72",
-    "pos": "T72",
+    "pos": "T73",
     "player": "Padraig Harrington"
   },
   {
@@ -662,44 +671,17 @@
     "r3": "-",
     "r2": "75",
     "r1": "74",
-    "pos": "T72",
+    "pos": "T73",
     "player": "Victor Dubuisson"
   },
   {
-    "tot": "76",
+    "tot": "149",
     "r4": "-",
     "r3": "-",
-    "r2": "-",
-    "r1": "76",
-    "pos": "T72",
-    "player": "Brian Harman"
-  },
-  {
-    "tot": "71",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "71",
-    "pos": "T72",
-    "player": "Tom Watson"
-  },
-  {
-    "tot": "150",
-    "r4": "-",
-    "r3": "-",
-    "r2": "76",
-    "r1": "74",
-    "pos": "T77",
-    "player": "Sandy Lyle"
-  },
-  {
-    "tot": "74",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "74",
-    "pos": "T77",
-    "player": "Byron Meth"
+    "r2": "69",
+    "r1": "80",
+    "pos": "T73",
+    "player": "Corey Conners"
   },
   {
     "tot": "78",
@@ -707,16 +689,7 @@
     "r3": "-",
     "r2": "-",
     "r1": "78",
-    "pos": "T77",
-    "player": "Miguel Jimenez"
-  },
-  {
-    "tot": "78",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "78",
-    "pos": "T77",
+    "pos": "T73",
     "player": "Antonio Murdaca"
   },
   {
@@ -725,8 +698,35 @@
     "r3": "-",
     "r2": "-",
     "r1": "76",
-    "pos": "T77",
+    "pos": "T73",
     "player": "J.B. Holmes"
+  },
+  {
+    "tot": "150",
+    "r4": "-",
+    "r3": "-",
+    "r2": "76",
+    "r1": "74",
+    "pos": "T79",
+    "player": "Sandy Lyle"
+  },
+  {
+    "tot": "150",
+    "r4": "-",
+    "r3": "-",
+    "r2": "76",
+    "r1": "74",
+    "pos": "T79",
+    "player": "Byron Meth"
+  },
+  {
+    "tot": "150",
+    "r4": "-",
+    "r3": "-",
+    "r2": "71",
+    "r1": "79",
+    "pos": "T79",
+    "player": "Jose Maria Olazabal"
   },
   {
     "tot": "151",
@@ -747,31 +747,22 @@
     "player": "Thomas Bjorn"
   },
   {
-    "tot": "78",
+    "tot": "151",
     "r4": "-",
     "r3": "-",
-    "r2": "-",
+    "r2": "73",
     "r1": "78",
     "pos": "T82",
     "player": "Larry Mize"
   },
   {
-    "tot": "80",
+    "tot": "151",
     "r4": "-",
     "r3": "-",
-    "r2": "-",
+    "r2": "71",
     "r1": "80",
     "pos": "T82",
-    "player": "Corey Conners"
-  },
-  {
-    "tot": "79",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "79",
-    "pos": "T82",
-    "player": "Jose Maria Olazabal"
+    "player": "Brendon Todd"
   },
   {
     "tot": "152",
@@ -779,8 +770,26 @@
     "r3": "-",
     "r2": "76",
     "r1": "76",
-    "pos": "87",
+    "pos": "T86",
     "player": "Matias Dominguez"
+  },
+  {
+    "tot": "152",
+    "r4": "-",
+    "r3": "-",
+    "r2": "81",
+    "r1": "71",
+    "pos": "T86",
+    "player": "Tom Watson"
+  },
+  {
+    "tot": "78",
+    "r4": "-",
+    "r3": "-",
+    "r2": "-",
+    "r1": "78",
+    "pos": "T86",
+    "player": "Miguel Jimenez"
   },
   {
     "tot": "153",
@@ -788,7 +797,7 @@
     "r3": "-",
     "r2": "77",
     "r1": "76",
-    "pos": "T88",
+    "pos": "T89",
     "player": "Trevor Immelman"
   },
   {
@@ -797,26 +806,8 @@
     "r3": "-",
     "r2": "74",
     "r1": "79",
-    "pos": "T88",
+    "pos": "T89",
     "player": "Fred Couples"
-  },
-  {
-    "tot": "80",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "80",
-    "pos": "T88",
-    "player": "Brendon Todd"
-  },
-  {
-    "tot": "79",
-    "r4": "-",
-    "r3": "-",
-    "r2": "-",
-    "r1": "79",
-    "pos": "91",
-    "player": "Ben Crane"
   },
   {
     "tot": "156",
@@ -824,7 +815,7 @@
     "r3": "-",
     "r2": "76",
     "r1": "80",
-    "pos": "92",
+    "pos": "91",
     "player": "Robert Streb"
   },
   {
@@ -833,7 +824,7 @@
     "r3": "-",
     "r2": "81",
     "r1": "76",
-    "pos": "T93",
+    "pos": "T92",
     "player": "Scott Harvey"
   },
   {
@@ -842,8 +833,17 @@
     "r3": "-",
     "r2": "79",
     "r1": "78",
-    "pos": "T93",
+    "pos": "T92",
     "player": "Bradley Neil"
+  },
+  {
+    "tot": "157",
+    "r4": "-",
+    "r3": "-",
+    "r2": "78",
+    "r1": "79",
+    "pos": "T92",
+    "player": "Ben Crane"
   },
   {
     "tot": "85",
@@ -855,10 +855,10 @@
     "player": "Gunn Yang"
   },
   {
-    "tot": "82",
+    "tot": "163",
     "r4": "-",
     "r3": "-",
-    "r2": "-",
+    "r2": "81",
     "r1": "82",
     "pos": "96",
     "player": "Mike Weir"
