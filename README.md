@@ -1,6 +1,8 @@
 # The Masters
 
-A command line API for getting data about the PGA Masters Tournament.
+A command line API for getting leaderboard data about the PGA Masters Tournament.
+
+Based on [http://espn.go.com/golf/leaderboard](http://espn.go.com/golf/leaderboard)
 
 Requirements:
 
