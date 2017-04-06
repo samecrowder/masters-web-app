@@ -2,7 +2,7 @@
 
 A command line API for getting leaderboard data about the PGA Masters Tournament.
 
-Based on [http://espn.go.com/golf/leaderboard](http://espn.go.com/golf/leaderboard)
+Based on [http://www.espn.com/golf/leaderboard](http://www.espn.com/golf/leaderboard)
 
 Requirements:
 
@@ -11,3 +11,5 @@ Requirements:
 - [jq](http://stedolan.github.io/jq/)
 
 Web API: http://samsandberg.com/themasters/
+
+Update: Ready for 2017!
