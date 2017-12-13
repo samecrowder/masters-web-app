@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Masters Pool</title>
+	<style>
+		table {
+			border-collapse:collapse;
+			width:95%;
+			font-size:115%;
+			text-align:center;
+			margin:auto;
+			margin-top:15px;
+		}
+
+		table, th, td {
+			border: 1px solid #ccc;
+		}
+
+		th, td {
+			height:40px;
+			width:14%;
+		}
+		
+		th {
+			background-color:#009933;
+		}
+	</style>
+	<meta name="author" content="Will Markley">
+</head>
+
+<body>
+
+	<div style="padding-top:20px;font-size:350%;padding-bottom:30px;text-align:center;">Masters Pool 2017 Leaderboard</div>
+	<table>
+		<th>Name</th>
+		<th>P1</th>
+		<th>P2</th>
+		<th>P3</th>
+		<th>P4</th>
+		<th>P5</th>
+		<th>P6</th>
+		<th>Par</th>
+		{% for entry in entries %}
+		<tr>
+			<td style="width:18%" >{{ entry['name'] }}</td>
+			<td>{{ entry['p1']    }}</td>
+			<td>{{ entry['p2']    }}</td>
+			<td>{{ entry['p3']    }}</td>
+			<td>{{ entry['p4']    }}</td>
+			<td>{{ entry['p5']    }}</td>
+			<td>{{ entry['p6']    }}</td>
+			<td style="width:10%" >{{ entry['score'] }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+	<div style="padding-top:20px;font-size:350%;padding-bottom:30px;text-align:center;">Pot: $60</div>
+	<div style="font-size:350%;">Rules:</div>
+	<ul>
+		<li>Combined final score to par</li>
+		<li>Player's that miss the cut get their score multipled by 2</li>
+		<li>Master's Champion gets -4 strokes added to score</li>
+	</ul>
+	<div style="text-align:right">Updated: {{ timestamp }}</div>
+</body>
+</html>
