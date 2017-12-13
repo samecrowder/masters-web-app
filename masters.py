@@ -58,4 +58,4 @@ def hello():
 
 if __name__ == "__main__":
 	app.config.update(PROPAGATE_EXCEPTIONS = True)
-	#app.run(host="0.0.0.0", port=80)
+	app.run(host="0.0.0.0", port=80)
