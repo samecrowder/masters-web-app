@@ -7,5 +7,6 @@ This simple web application is intended to faciliate a masters pick-em pool.  It
 * Install *apache2* and *mod_wsgi*
 * Add `WSGIScriptAlias / /var/www/html/masters/masters.wsgi` to the `/etc/apache2/apache2.conf` file
 * Download these files to `/var/www/html/masters`
-* Downlaod [jq] to `/var/www/html/masters` or to a default binary path
+* Edit *masters.csv*
+* Downlaod [jq](https://stedolan.github.io/jq/download/) to `/var/www/html/masters` or to a default binary path
 * Start the apache2 daemon
