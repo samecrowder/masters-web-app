@@ -28,7 +28,7 @@ for entry in entries:
 	golfers[ entry['p4'] ] = 0
 	golfers[ entry['p5'] ] = 0
 	golfers[ entry['p6'] ] = 0
-
+pot = str(10*len(entries))
 
 @app.route("/")
 def hello():
@@ -54,7 +54,7 @@ def hello():
 	env = Environment(loader = FileSystemLoader('/var/www/html/masters/'))
 	template = env.get_template('masters.html')
 	
-	return template.render(timestamp=str(datetime.now()), entries=sorted(entries, key=lambda k: k['score']))
+	return template.render(timestamp=str(datetime.now()), entries=sorted(entries, key=lambda k: k['score']), pot=pot)
 
 if __name__ == "__main__":
 	app.config.update(PROPAGATE_EXCEPTIONS = True)
