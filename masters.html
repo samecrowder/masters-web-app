@@ -44,12 +44,12 @@
 		{% for entry in entries %}
 		<tr>
 			<td style="width:18%" >{{ entry['name'] }}</td>
-			<td>{{ entry['p1']    }}</td>
-			<td>{{ entry['p2']    }}</td>
-			<td>{{ entry['p3']    }}</td>
-			<td>{{ entry['p4']    }}</td>
-			<td>{{ entry['p5']    }}</td>
-			<td>{{ entry['p6']    }}</td>
+			<td>{{ entry['p1']    }} ({{ str(golfers[entry['p1']]) }})</td>
+			<td>{{ entry['p2']    }} ({{ str(golfers[entry['p2']]) }})</td>
+			<td>{{ entry['p3']    }} ({{ str(golfers[entry['p3']]) }})</td>
+			<td>{{ entry['p4']    }} ({{ str(golfers[entry['p4']]) }})</td>
+			<td>{{ entry['p5']    }} ({{ str(golfers[entry['p5']]) }})</td>
+			<td>{{ entry['p6']    }} ({{ str(golfers[entry['p6']]) }})</td>
 			<td style="width:10%" >{{ entry['score'] }}</td>
 		</tr>
 		{% endfor %}

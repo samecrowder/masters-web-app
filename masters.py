@@ -54,7 +54,7 @@ def hello():
 	env = Environment(loader = FileSystemLoader('/var/www/html/masters/'))
 	template = env.get_template('masters.html')
 	
-	return template.render(timestamp=str(datetime.now()), entries=sorted(entries, key=lambda k: k['score']), pot=pot)
+	return template.render(timestamp=str(datetime.now()), entries=sorted(entries, key=lambda k: k['score']), pot=pot, golfers=golfers)
 
 if __name__ == "__main__":
 	app.config.update(PROPAGATE_EXCEPTIONS = True)
