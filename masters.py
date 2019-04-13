@@ -44,7 +44,7 @@ def hello():
 				golfers[golfer["player"]] = int(golfer["topar"])
 			else:
 				golfers[golfer["player"]] = 0	
-			if golfer["cut"]=="Missed Cut":
+			if golfer["cut"]=="-":
 				golfers[golfer["player"]] = 2*golfers[golfer["player"]]
 			
 	# Update scores

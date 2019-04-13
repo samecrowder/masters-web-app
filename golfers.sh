@@ -1,9 +1,14 @@
 #!/bin/bash
 
+JQ=/usr/bin/jq
+
 curl -Ss http://www.espn.com/golf/leaderboard | \
-	grep "leaderboard.data" | \
-	awk 'BEGIN {FS="leaderboard.data = ";}{print $2}' | \
-	sed 's/.$//' | \
-	/usr/local/bin/jq '.competitions' | /usr/local/bin/jq '.[0] | .competitors' | \
-	/usr/local/bin/jq '.[] | {cut: .status.type.description, topar: .statistics[0].displayValue, player: .athlete.displayName}' | \
-	/usr/local/bin/jq -s '.'
+	grep "javascript" | \
+	grep -o "competitors.*" | \
+	grep -o ".*rawText" | \
+	sed 's/,\"rawText//g' | \
+	sed 's/competitors\"://g' | \
+	${JQ} '.[] | {cut: .pos, topar: .toPar, player: .name}' | \
+	sed 's/}/},/g' | \
+	sed '$s/,//g' | \
+	awk 'BEGIN{print "["} {print $0} END{print "]"}'
