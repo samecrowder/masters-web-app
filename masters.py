@@ -1,21 +1,16 @@
-#!/usr/bin/python
-
 import csv
 import json
 import operator
 import subprocess
-from flask import Flask
 from jinja2 import Environment, FileSystemLoader
 from datetime import datetime
 
-
-app = Flask(__name__)
 
 entries = []  # list of dictionaries; item is dict; key = name/p1 value = text
 golfers = {}  # golfer with topar value
 
 # import CSV
-with open('/var/www/html/masters/masters.csv') as csvfile:
+with open('masters.csv') as csvfile:
 	entriesDR = csv.DictReader(csvfile)
 	entries = list(entriesDR)
 
@@ -30,11 +25,10 @@ for entry in entries:
 	golfers[ entry['p6'] ] = 0
 pot = str(10*len(entries))
 
-@app.route("/")
-def hello():
+def handle(event, context):
 
 	# Call API
-	json_list_str = subprocess.check_output(['bash', '/var/www/html/masters/golfers.sh'])
+	json_list_str = subprocess.check_output(['bash', 'golfers.sh'])
 	json_data_list = json.loads(json_list_str)
 		
 	# Update golfers
@@ -51,11 +45,15 @@ def hello():
 	for entry in entries:
 		entry['score'] = golfers[entry['p1']] + golfers[entry['p2']] + golfers[entry['p3']] + golfers[entry['p4']] + golfers[entry['p5']] + golfers[entry['p6']]
 
-	env = Environment(loader = FileSystemLoader('/var/www/html/masters/'))
-	template = env.get_template('masters.html')
-	
-	return template.render(timestamp=str(datetime.now()), entries=sorted(entries, key=lambda k: k['score']), pot=pot, golfers=golfers)
 
-if __name__ == "__main__":
-	app.config.update(PROPAGATE_EXCEPTIONS = True)
-	app.run(host="0.0.0.0", port=80)
+	env = Environment(loader = FileSystemLoader('templates'))
+	template = env.get_template('masters.html')
+
+	return {
+        "statusCode": 200,
+        "body": template.render(timestamp=str(datetime.now()), entries=sorted(entries, key=lambda k: k['score']), pot=pot, golfers=golfers),
+        "headers": {
+            'Content-Type': 'text/html',
+        }
+    }
+

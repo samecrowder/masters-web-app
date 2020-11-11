@@ -1,8 +1,8 @@
 #!/bin/bash
 
-JQ=/usr/bin/jq
+JQ=./jq
 
-curl -Ss http://www.espn.com/golf/leaderboard | \
+curl -Ss https://www.espn.com/golf/leaderboard | \
 	grep "javascript" | \
 	grep -o "competitors.*" | \
 	grep -o ".*rawText" | \
