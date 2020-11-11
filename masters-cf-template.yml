@@ -1,0 +1,61 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Masters WebApp"
+Resources:
+  MastersWebAppRole:
+    Type: AWS::IAM::Role
+    Properties: 
+      AssumeRolePolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Principal:
+                  Service:
+                  - lambda.amazonaws.com
+                  - apigateway.amazonaws.com
+                Action:
+                  - 'sts:AssumeRole'
+      Description: "Masters WebApp Role"
+      ManagedPolicyArns: 
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaRole
+      RoleName: Masters-WebApp-Role
+
+
+  MastersWebAppLambda:
+    Type: AWS::Lambda::Function
+    DependsOn:
+      - MastersWebAppRole
+    Properties: 
+      Code:
+        ZipFile: |
+          output = '''
+          <!DOCTYPE html>
+          <html>
+          <head>
+          <title>Hello World HTML</title>
+          </head>
+          <body>
+          <h1>Hello World</h1>
+          </body>
+          </html>
+          '''
+
+          def handle(event, context):
+              return output
+      Description: "Masters WebApp Lambda"
+      Environment:
+        Variables:
+          envVar: testVal
+      FunctionName: MastersLambda
+      Handler: masters.handle
+      Role: !GetAtt MastersWebAppRole.Arn
+      Runtime: python3.7
+
+  MastersWebAppApi:
+    Type: AWS::ApiGatewayV2::Api
+    Properties: 
+      CredentialsArn: !GetAtt MastersWebAppRole.Arn
+      Description: "Masters WebApp Api"
+      Name: MastersApi
+      ProtocolType: HTTP
+      Target: !GetAtt MastersWebAppLambda.Arn
+
