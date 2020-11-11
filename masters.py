@@ -17,12 +17,12 @@ with open('masters.csv') as csvfile:
 # setup player and golfer scores
 for entry in entries:
 	entry['score'] = 0
-	golfers[ entry['p1'] ] = 0
-	golfers[ entry['p2'] ] = 0
-	golfers[ entry['p3'] ] = 0
-	golfers[ entry['p4'] ] = 0
-	golfers[ entry['p5'] ] = 0
-	golfers[ entry['p6'] ] = 0
+	golfers[ entry['p1'] ] = 100
+	golfers[ entry['p2'] ] = 100
+	golfers[ entry['p3'] ] = 100
+	golfers[ entry['p4'] ] = 100
+	golfers[ entry['p5'] ] = 100
+	golfers[ entry['p6'] ] = 100
 pot = str(20*len(entries))
 
 def handle(event, context):
