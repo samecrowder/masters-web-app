@@ -23,7 +23,7 @@ for entry in entries:
 	golfers[ entry['p4'] ] = 0
 	golfers[ entry['p5'] ] = 0
 	golfers[ entry['p6'] ] = 0
-pot = str(10*len(entries))
+pot = str(20*len(entries))
 
 def handle(event, context):
 
