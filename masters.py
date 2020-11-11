@@ -46,7 +46,7 @@ def handle(event, context):
 		entry['score'] = golfers[entry['p1']] + golfers[entry['p2']] + golfers[entry['p3']] + golfers[entry['p4']] + golfers[entry['p5']] + golfers[entry['p6']]
 
 
-	env = Environment(loader = FileSystemLoader('templates'))
+	env = Environment(loader = FileSystemLoader('.'))
 	template = env.get_template('masters.html')
 
 	return {
