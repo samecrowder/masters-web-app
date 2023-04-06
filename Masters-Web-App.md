@@ -10,7 +10,6 @@ This simple web application is intended to faciliate a masters pick-em pool.  It
 
 ```
 ## download and unzip the files in this gist
-chmod +x golfers.sh
 
 ## get jinja and requests dependency
 #### assumes virtualenv is installed
