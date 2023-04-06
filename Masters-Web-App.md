@@ -22,6 +22,7 @@ chmod +x jq
 virtualenv env
 source env/bin/activate
 pip install jinja2 -t .
+pip install requests -t .
 deactivate
 rm -rf env
 

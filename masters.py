@@ -4,7 +4,8 @@ import operator
 import subprocess
 from jinja2 import Environment, FileSystemLoader
 from datetime import datetime
-
+import re
+import requests
 
 entries = []  # list of dictionaries; item is dict; key = name/p1 value = text
 golfers = {}  # golfer with topar value
@@ -23,13 +24,37 @@ for entry in entries:
 	golfers[ entry['p4'] ] = 100
 	golfers[ entry['p5'] ] = 100
 	golfers[ entry['p6'] ] = 100
-pot = str(10*len(entries))
+pot = str(20*len(entries))
+
+pattern = re.compile("competitors.*rawText")
+URL = "https://www.espn.com/golf/leaderboard"
+
+
+def fetchLeaderboard():
+	r = requests.get(URL)
+	return r.text
+
+
+def transformLeaderboard(input_html):
+	matched = pattern.search(input_html).group()
+	matched_cleaned = matched.replace(',"rawText', '').replace('competitors":', '')
+	leaderboard_json_list = json.loads(matched_cleaned)
+	leaders = []
+	for item in leaderboard_json_list:
+		leader = {
+			'cut': item['pos'],
+			'topar': item['toPar'],
+			'player': item['name']
+		}
+		leaders.append(leader)
+
+	return leaders
+
 
 def handle(event, context):
 
 	# Call API
-	json_list_str = subprocess.check_output(['bash', 'golfers.sh'])
-	json_data_list = json.loads(json_list_str)
+	json_data_list = transformLeaderboard(fetchLeaderboard())
 		
 	# Update golfers
 	for golfer in json_data_list:
