@@ -12,12 +12,7 @@ This simple web application is intended to faciliate a masters pick-em pool.  It
 ## download and unzip the files in this gist
 chmod +x golfers.sh
 
-## get jq dependency
-wget https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64
-mv jq-linux64 jq
-chmod +x jq
-
-## get jinja dependency
+## get jinja and requests dependency
 #### assumes virtualenv is installed
 virtualenv env
 source env/bin/activate
@@ -38,7 +33,7 @@ zip -r lambda.zip *
 
 MIT License
 
-Copyright (c) 2016 - 2020 Will Markley
+Copyright (c) 2016 - 2023 Will Markley
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

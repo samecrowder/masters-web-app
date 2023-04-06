@@ -48,7 +48,8 @@ Resources:
       FunctionName: MastersLambda
       Handler: masters.handle
       Role: !GetAtt MastersWebAppRole.Arn
-      Runtime: python3.7
+      Runtime: python3.9
+      Timeout: 8
 
   MastersWebAppApi:
     Type: AWS::ApiGatewayV2::Api
