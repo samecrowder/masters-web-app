@@ -5,7 +5,7 @@ import subprocess
 from jinja2 import Environment, FileSystemLoader
 from datetime import datetime
 import re
-import requests
+import urllib.request
 
 entries = []  # list of dictionaries; item is dict; key = name/p1 value = text
 golfers = {}  # golfer with topar value
@@ -31,8 +31,9 @@ URL = "https://www.espn.com/golf/leaderboard"
 
 
 def fetchLeaderboard():
-	r = requests.get(URL)
-	return r.text
+	req = urllib.request.Request(URL)
+	r = urllib.request.urlopen(req).read().decode('utf-8')
+	return r
 
 
 def transformLeaderboard(input_html):
@@ -81,4 +82,3 @@ def handle(event, context):
             'Content-Type': 'text/html',
         }
     }
-

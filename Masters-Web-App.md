@@ -16,7 +16,6 @@ This simple web application is intended to faciliate a masters pick-em pool.  It
 virtualenv env
 source env/bin/activate
 pip install jinja2 -t .
-pip install requests -t .
 deactivate
 rm -rf env
 
